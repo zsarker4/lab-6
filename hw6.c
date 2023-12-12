@@ -1,3 +1,8 @@
+/*
+Name:Zahradinee Sarker ID:24325057
+Name:Kevin Tran ID:72244158 
+*/
+
 #include <stdio.h>
 #include <pthread.h>
 #include <unistd.h>
@@ -5,12 +10,6 @@
 
 #define MAX_THREADS 16
 #define BUFFER_SIZE 10 //max buffer size is 10
-
-/*
-12/4 Zahradinee
-- created the producer and consumer functions according to the hw specifications
-- currently the output does not match up with the sample outputs so have to debug the functions
-*/
 
 // global
 int buffer[BUFFER_SIZE];
